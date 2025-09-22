@@ -1,0 +1,14 @@
+<div id="viewer" style="width:100%; height:80vh; border:1px solid #ccc;"></div>
+<script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
+<script>
+  // ÇALIŞAN DEMO EPUB (Alice in Wonderland)
+  var book = ePub("https://cdn.jsdelivr.net/gh/futurepress/epub.js@0.3/examples/alice.epub");
+
+  var rendition = book.renderTo("viewer", { width: "100%", height: "80vh" });
+
+  // kaldığı yerden devam
+  var key = "epub-location-alice";
+  var saved = localStorage.getItem(key);
+  rendition.display(saved || undefined);
+  rendition.on("relocated", function(loc){ localStorage.setItem(key, loc.start.cfi); });
+</script>
