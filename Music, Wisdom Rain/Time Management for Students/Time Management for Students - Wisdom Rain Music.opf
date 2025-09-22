@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">2</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">a5094444-d76e-4a27-9e2e-6f516ffd89ef</dc:identifier>
+        <dc:title>Time Management for Students</dc:title>
+        <dc:creator opf:file-as="Music, Wisdom Rain" opf:role="aut">Wisdom Rain Music</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.10.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2025-09-22T05:34:40+00:00</dc:date>
+        <dc:publisher>Wisdom Rain Music</dc:publisher>
+        <dc:language>tr</dc:language>
+        <dc:subject>Time Management</dc:subject>
+        <meta name="calibre:series" content="Personal Development"/>
+        <meta name="calibre:series_index" content="1"/>
+        <meta name="calibre:timestamp" content="2025-09-22T13:38:13.667495+00:00"/>
+        <meta name="calibre:title_sort" content="Time Management for Students"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Kapak" href="Time Management for Students - Wisdom Rain Music.jpg"/>
+    </guide>
+</package>
